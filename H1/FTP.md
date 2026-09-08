@@ -4,8 +4,7 @@ During a penetration test, you discovered an FTP server that is accessible over 
 ## Challenge
 Your goal is to gain access to the FTP server using **Hydra** and then access the files stored on the server.
 
-**Hint:**
-The FTP username is `ftpadmin`.
+
 
 ## Prerequisites
 Before starting:
@@ -22,8 +21,13 @@ All information how to configure and connect with VPN: [SecLabs - Proton VPN](ht
 1.Use Hydra on Kali Linux to obtain the FTP credentials
 2.Connect to the FTP server and download the files available on the server.
 
+Download and use the following password list [FTP challenge - passwordlist](https://raw.githubusercontent.com/PXL-Security-Essentials/SNESecLabsAssignments/refs/heads/main/H1/ftppwdlist.txt)
+
+**Hint:**
+The FTP username is `ftpadmin`.
+
 :::info
-Raadpleeg de online cursus om een voorbeeld te zien van de hydra syntax [Security Essentials Course - Hydra](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/1-cybersecurityconcepts/hydra.html)
+Check the online course for an example of the Hydra syntax: [Security Essentials Course - Hydra](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/1-cybersecurityconcepts/hydra.html)
 :::
 
 ### FTP Commands
