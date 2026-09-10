@@ -22,7 +22,7 @@ Before starting:
 Download and use the following password list [SSH challenge - passwordlist](https://raw.githubusercontent.com/PXL-Security-Essentials/SNESecLabsAssignments/refs/heads/main/H1/sshpwdlist.txt)
 
 **Hint:**
-Gebruik als username de SSH username lijst die je vondt tijdens de vorige opdracht FTP hydra challenge.
+During the previous challenge (FTP Hydra), you found a list of SSH usernames on the FTP server. Use this usernamelist as part of your Hydra attack.
 
 > #### Hydra syntax
 > Check the online course for an example of the Hydra syntax: [Security Essentials Course - Hydra](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/1-cybersecurityconcepts/hydra.html)
