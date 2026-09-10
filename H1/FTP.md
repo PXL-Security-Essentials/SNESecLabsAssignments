@@ -13,9 +13,9 @@ Before starting:
 2. Run the Hydra command from **Kali Linux**.
 3. Use **Kali Linux** to connect to and access the FTP server.
 
-:::info
-All information how to configure and connect with VPN: [SecLabs - Proton VPN](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/0-labsetup/vpn.html)
-:::
+> #### Config and connect with VPN
+> All information how to configure and connect with VPN: [SecLabs - Proton VPN](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/0-labsetup/vpn.html)
+> 
 
 ### Goal
 1.Use Hydra on Kali Linux to obtain the FTP credentials
@@ -26,9 +26,9 @@ Download and use the following password list [FTP challenge - passwordlist](http
 **Hint:**
 The FTP username is `ftpadmin`.
 
-:::info
-Check the online course for an example of the Hydra syntax: [Security Essentials Course - Hydra](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/1-cybersecurityconcepts/hydra.html)
-:::
+> #### Hydra syntax
+> Check the online course for an example of the Hydra syntax: [Security Essentials Course - Hydra](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/1-cybersecurityconcepts/hydra.html)
+> 
 
 ### FTP Commands
 Once you have the correct credentials, you can use the following commands to interact with the FTP server:
