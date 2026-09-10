@@ -1,5 +1,5 @@
 # telnet
-During a penetration test, you discovered an telnet server that is accessible over the network.
+During a penetration test, you discovered an telnet server that is accessible over the network. This SecLab challenge was completed as a class exercise during Week 2 of the course.
 
 ## Challenge
 Your goal is to gain access to the telnet server using **Hydra** and then access the files stored on the server.
