@@ -1,8 +1,8 @@
-# FTP
-During a penetration test, you discovered an FTP server that is accessible over the network.
+# telnet
+During a penetration test, you discovered an telnet server that is accessible over the network.
 
 ## Challenge
-Your goal is to gain access to the FTP server using **Hydra** and then access the files stored on the server.
+Your goal is to gain access to the telnet server using **Hydra** and then access the files stored on the server.
 
 ## Prerequisites
 Before starting:
@@ -16,13 +16,13 @@ Before starting:
 > 
 
 ### Goal
-1.Use Hydra on Kali Linux to obtain the FTP credentials
+1.Use Hydra on Kali Linux to obtain the telnet credentials
 2.Connect to the FTP server and download the files available on the server.
 
-Download and use the following password list [FTP challenge - passwordlist](https://raw.githubusercontent.com/PXL-Security-Essentials/SNESecLabsAssignments/refs/heads/main/H1/ftppwdlist.txt)
+Download and use the following password list [telnet challenge - passwordlist](https://raw.githubusercontent.com/PXL-Security-Essentials/SNESecLabsAssignments/refs/heads/main/H1/telnetpwdlist.txt)
 
 **Hint:**
-The FTP username is `ftpadmin`.
+The telnet username is `admin`.
 
 > #### Hydra syntax
 > Check the online course for an example of the Hydra syntax: [Security Essentials Course - Hydra](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/1-cybersecurityconcepts/hydra.html)
@@ -30,10 +30,10 @@ The FTP username is `ftpadmin`.
 
 ### FTP Commands
 Once you have the correct credentials, you can use the following commands to interact with the FTP server:
-- **Connect to the FTP server:**
+- **Connect to the telnet server:**
 
   ```bash
-  ftp x.x.x.x
+ telnet x.x.x.x
   ```
 
 - **List the files on the server:**
@@ -42,14 +42,8 @@ Once you have the correct credentials, you can use the following commands to int
   ls
   ```
 
-- **Download a file:**
+- **Open a file:**
 
   ```bash
-  get file.txt
-  ```
-
-- **Exit the FTP session:**
-
-  ```bash
-  bye
+  cat file.txt
   ```
