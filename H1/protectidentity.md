@@ -22,6 +22,3 @@ Replace the default password with a strong, unique password. Generate the passwo
 
 3. **Enable Multi-Factor Authentication (MFA)**
 Configure MFA so that a leaked or compromised password alone is not sufficient to access the account. Enable MFA and verify that it works by testing the login process.
-
-4. **Enable passwordless authentication with a passkey**
-As the final step, enable passwordless sign-in using a passkey. Configure and activate the passkey for the account.
