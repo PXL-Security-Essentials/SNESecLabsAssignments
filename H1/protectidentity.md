@@ -1,7 +1,5 @@
 # Protect Identity
-During a penetration test, you discovered an accessible SSH server.
 
-## Lab Environment
 In this lab, you will log in to a fictional cryptocurrency account. Your goal is to secure the profile so that the account is less vulnerable to phishing, password attacks, and data breaches, and to minimize the potential impact if a breach occurs.
 
 Connect to the virtual environment using the following details:
