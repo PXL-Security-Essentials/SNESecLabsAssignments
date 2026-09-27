@@ -12,7 +12,8 @@ Before starting:
 3. Use **Kali Linux** to connect to and access the FTP server.
 
 > #### Config and connect with VPN
-> All information how to configure and connect with VPN: [SecLabs - Proton VPN](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/0-labsetup/vpn.html)
+> Only continue once you are connected to ProtonVPN on Kali Linux.
+> All information how to configure and connect with VPN inside Kali Linux: [SecLabs - Proton VPN](https://pxl-student:2025_PXL!@pxl-securityessentials-sne.code-coaching.dev/cursus/0-labsetup/vpn.html)
 > 
 
 ### Goal
