@@ -23,7 +23,3 @@ Download the password list here: [ITadminpwlist.txt](https://raw.githubuserconte
 ## 4. Log In with the Higher-Privileged Account
 
 Once you have recovered the higher-privileged user's password, connect to the virtual Cisco IOS router via SSH using that account. You will receive the first flag.
-
-## 5. Erase the Configuration
-
-While logged in with the higher-privileged account, erase the startup configuration and reboot the router. You will receive the second flag.
