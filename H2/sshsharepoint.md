@@ -13,5 +13,5 @@ Connect to the virtual SharePoint environment using these credentials:
 2. Locate the SSH private key in the SharePoint site's document library.
 3. Use John the Ripper to extract the passphrase hash from the private key.
 4. Look for hints on the SharePoint site about the passphrase's format.
-5. Use Hashcat and the identified format to recover the passphrase.
+5. Use Hashcat and the identified password format to recover the passphrase.
 6. Log in to the SSH server with the private key and recovered passphrase.
