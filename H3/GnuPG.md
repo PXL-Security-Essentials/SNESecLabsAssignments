@@ -2,6 +2,11 @@
 In this lab you will learn the gpg commandline tools to encrypt and decrypt data symmetric and assymetric
 The online Security Essentials course has all the commands needed to complete the challenge:
 
+## Connect to the lab environment
+
+1. Open the lab environment at http://x.x.x.x:8080.
+2. On the page that opens, enter your PXL student email address in this format: `firstname.lastname@student.pxl.be`.
+
 ## 1. Symmetric Decryption
 
 1. Click the green button to download the encrypted file.
