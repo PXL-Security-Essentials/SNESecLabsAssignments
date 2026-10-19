@@ -12,7 +12,7 @@ Here is an overview of the commands and files you will use during this lab. Repl
 | `ssh-keygen` | Generates a public/private SSH key pair on your local host. |
 | `ssh-copy-id -i nameofkey username@x.x.x.x` | Copies the public key to the SSH server so the user can authenticate without a password. |
 | `ssh -i nameofkey username@x.x.x.x` | Connects to the SSH server using the specified private key and username for authentication. |
-| `sudo systemctl reload ssh` | Reloads the OpenSSH server configuration after changes are made to `sshd_config`. |
+| `sudo systemctl restart ssh` | Reloads the OpenSSH server configuration after changes are made to `sshd_config`. |
 | `~/.ssh/authorized_keys` | The file on the server that stores the authorized public keys used for SSH authentication. |
 | `sshd_config` | The SSH server configuration file where you can change authentication and security settings. |
 
