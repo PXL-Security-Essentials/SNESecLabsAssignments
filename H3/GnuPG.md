@@ -1,6 +1,6 @@
 # GnuPG
 In this lab you will learn the gpg commandline tools to encrypt and decrypt data symmetric and assymetric
-The online Security Essentials course has all the commands needed to complete the challenge:
+The online Security Essentials course has all the commands needed to complete the challenge: [https://pxl-securityessentials-sne.code-coaching.dev/cursus/3-encryption/gpg.html](https://pxl-securityessentials-sne.code-coaching.dev/cursus/3-encryption/gpg.html)
 
 ## Connect to the lab environment
 
